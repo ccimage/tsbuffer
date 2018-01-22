@@ -1,0 +1,17 @@
+{
+  "name": "TCP_Buffer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ccimage",
+  "license": "MIT",
+  "dependencies": {
+    "md5": "^2.1"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.1.32"
+  }
+}
