@@ -62,7 +62,7 @@ class test{
             let jsonDemo:{[key:string]:string} = {};
             jsonDemo["GITHUB"] = "is how people build software We’re supporting a community where more than 27 million people learn, share, and work together to build software.is how people build software We’re supporting a community where more than 27 million people learn, share, and work together to build software.is how people build software We’re supporting a community where more than 27 million people learn, share, and work together to build software.is how people build software We’re supporting a community where more than 27 million people learn, share, and work together to build software.is how people build software We’re supporting a community where more than 27 million people learn, share, and work together to build software.is how people build software We’re supporting a community where more than 27 million people learn, share, and work together to build software.";
             for(let i = 0; i < 100; i++){
-                client.sendMessage("127.0.0.1:10001",JSON.stringify(jsonDemo));
+                client.sendMessage(JSON.stringify(jsonDemo));
             }
         }, 2000);
 
